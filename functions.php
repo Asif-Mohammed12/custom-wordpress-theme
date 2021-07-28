@@ -117,5 +117,5 @@ function cw_post_type_news() {
     }
     add_action('init', 'cw_post_type_news');
     /*Custom Post type end*/
-
+    
 ?>
