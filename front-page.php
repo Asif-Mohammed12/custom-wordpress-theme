@@ -37,7 +37,8 @@
 
 query_posts(array(
    'post_type' => 'news'
-)); ?>
+));
+ ?>
 		<?php
 				while (have_posts()) : the_post(); 
 				
@@ -54,8 +55,7 @@ query_posts(array(
 				</div>
 		<?php 
 		endwhile;
-?>
-	
+		?>
 
 	</article>
 
